@@ -4,6 +4,8 @@ title: "MkSlides Template"
 
 # MkSlides Template
 
+<hr>
+
 by [@inuEbisu](https://inuebisu.cn)
 
 ---
