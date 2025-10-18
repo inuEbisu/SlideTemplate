@@ -81,6 +81,22 @@ body {
     text-shadow: none;
 }
 
+.reveal .slides section:has(h1),
+.reveal .slides section:has(h2),
+.reveal .slides section>section:has(h1),
+.reveal .slides section>section:has(h2) {
+    align-items: center;
+    text-align: center;
+    padding: 16rem 0;
+}
+
+.reveal .slides section:has(h2),
+.reveal .slides section>section:has(h2) {
+    align-items: center;
+    text-align: center;
+    padding: 20rem 0;
+}
+
 /*********************************************
  * OTHER
  *********************************************/
