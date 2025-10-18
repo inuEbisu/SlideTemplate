@@ -2,3 +2,6 @@
 
 serve:
 	mkslides serve docs
+
+build:
+	mkslides build docs
