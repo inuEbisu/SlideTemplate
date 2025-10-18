@@ -61,3 +61,4 @@ revealjs:
     width: 1920
     transition: slide
     transitionSpeed: fast
+    center: false
