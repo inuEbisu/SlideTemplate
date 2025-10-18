@@ -59,28 +59,5 @@ slides:
 revealjs:
     height: 1080
     width: 1920
-    transition: fade
-
-    example_plugin:
-        example_plugin_option_A: true
-        example_plugin_option_B: qwerty
-
-# Plugins or additional CSS/JavaScript files for the slides. These are given as
-# a list.
-# plugins:
-#     # Name of the plugin (optional, see plugin README): plugin id string
-#     # (see https://revealjs.com/creating-plugins/#registering-a-plugin)
-#     - name: RevealExamplePlugin
-#       # List of CSS files of the plugin (optional, see plugin README):
-#       # public url to CSS file per entry
-#       extra_css:
-#           - https://cdn.jsdelivr.net/npm/reveal.js-example-pluging/example.min.css
-#       # List of JavaScript files of the plugin (optional, see plugin README):
-#       # public url to JavaScript file per entry
-#       extra_javascript:
-#           - https://cdn.jsdelivr.net/npm/reveal.js-example-pluging/example.min.js
-#     - name: RevealMermaid
-#       extra_javascript:
-#           - https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin/plugin/mermaid/mermaid.min.js
-#     - extra_javascript:
-#           - https://cdn.jsdelivr.net/npm/reveal-plantuml/dist/reveal-plantuml.min.js
+    transition: slide
+    transitionSpeed: fast
