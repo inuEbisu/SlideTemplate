@@ -93,26 +93,26 @@ body {
 
 .reveal .slides section:has(h1),
 .reveal .slides section>section:has(h1) {
-    padding: 16rem 0;
+    padding-top: 16rem;
 }
 
 html.reveal-print .reveal .slides section:has(h1),
 html.reveal-print .reveal .slides section>section:has(h1) {
-    padding: 16rem 0 !important;
+    padding-top: 16rem !important;
 }
 
 .reveal .slides section:has(h2),
 .reveal .slides section>section:has(h2) {
-    padding: 20rem 0;
+    padding-top: 20rem;
 }
 
 html.reveal-print .reveal .slides section:has(h2),
 html.reveal-print .reveal .slides section>section:has(h2) {
-    padding: 20rem 0 !important;
+    padding-top: 20rem !important;
 }
 
 .reveal .slides section h3 {
-    padding: 0.55rem 0 0 0;
+    padding-top: 0.55rem;
 }
 
 .reveal .slides section h3::after {
