@@ -6,7 +6,10 @@ title: "MkSlides Template"
 
 <hr>
 
-by [@inuEbisu](https://inuebisu.cn)
+<div class="avatar-container">
+<a href="https://github.com/inuEbisu"><img class="avatar-img" src="avatar_512.png" alt="avatar"></a>
+<span class="avatar-name">@inuEbisu / 犬戎</span>
+</div>
 
 ---
 
