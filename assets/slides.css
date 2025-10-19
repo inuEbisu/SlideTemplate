@@ -86,19 +86,29 @@ body {
 }
 
 .reveal .slides section:has(h1),
-.reveal .slides section:has(h2),
-.reveal .slides section>section:has(h1),
-.reveal .slides section>section:has(h2) {
+.reveal .slides section:has(h2) {
     align-items: center;
     text-align: center;
+}
+
+.reveal .slides section:has(h1),
+.reveal .slides section>section:has(h1) {
     padding: 16rem 0;
+}
+
+html.reveal-print .reveal .slides section:has(h1),
+html.reveal-print .reveal .slides section>section:has(h1) {
+    padding: 16rem 0 !important;
 }
 
 .reveal .slides section:has(h2),
 .reveal .slides section>section:has(h2) {
-    align-items: center;
-    text-align: center;
     padding: 20rem 0;
+}
+
+html.reveal-print .reveal .slides section:has(h2),
+html.reveal-print .reveal .slides section>section:has(h2) {
+    padding: 20rem 0 !important;
 }
 
 .reveal .slides section h3 {
