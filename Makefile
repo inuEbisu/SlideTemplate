@@ -5,3 +5,9 @@ serve:
 
 build:
 	mkslides build docs
+
+format:
+	npm run format
+
+check:
+	npm run format:check
