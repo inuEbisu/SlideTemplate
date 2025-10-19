@@ -2,7 +2,6 @@
 .github
 .sass-cache
 
-assets/
 mkslides.yml
 
 package*.json
