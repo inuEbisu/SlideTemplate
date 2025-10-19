@@ -58,7 +58,7 @@ slides:
 # translated to JSON automatically (see https://revealjs.com/config/)
 revealjs:
     height: 720
-    width: 1280
+    width: 960
     transition: slide
     transitionSpeed: fast
     center: false
