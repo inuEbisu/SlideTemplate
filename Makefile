@@ -1,10 +1,10 @@
 .PHONY: serve
 
 serve:
-	mkslides serve docs
+	mkslides serve slides
 
 build:
-	mkslides build docs
+	mkslides build slides
 
 format:
 	npm run format
