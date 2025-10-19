@@ -271,6 +271,14 @@ body {
     vertical-align: top;
 }
 
+.reveal .mul-cols {
+    display: flex;
+}
+
+.reveal .mul-cols .col {
+    width: 100%;
+}
+
 /*********************************************
  * LINKS
  *********************************************/
