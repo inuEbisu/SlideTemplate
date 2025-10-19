@@ -13,16 +13,22 @@ title: "MkSlides Template"
 
 ---
 
-## Feature Tests
+## Part 1. Elements
 
 -v-
 
-### Hello, World!
+### Code Block
 
 ```rust
 fn main() {
     println!("Hello, World!");
 }
+```
+
+```hs
+primes = filterPrime [2..] where
+  filterPrime (p:xs) =
+    p : filterPrime [x | x <- xs, x `mod` p /= 0]
 ```
 
 -v-
@@ -32,6 +38,18 @@ fn main() {
 - list 1
 - list 2
     - list 2.1
+        - list 2.1.1
+        - list 2.1.2
+    - list 2.2
+        - list 2.2.1
+- list 3
+    - list 3.1
+    - list 3.2
+        - list 3.2.1
+            - list 3.2.1.1
+            - list 3.2.1.2
+        - list 3.2.2
+        - list 3.2.3
 
 -v-
 
@@ -45,15 +63,23 @@ fn main() {
 
 ### Table
 
-| 1   | 2   |
-| --- | --- |
-| 1.1 | 1.2 |
-| 2.1 | 2.2 |
-| 3.1 | 3.2 |
+左对齐表格
+
+| 表头 A           | 表头 B           | 表头 C |
+| ---------------- | ---------------- | ------ |
+| 这是一段内容     | 这里也是一段内容 | ...    |
+| 这里是另一段内容 | ...              | ...    |
+
+居中表格
+
+|      表头 A      |      表头 B      | 表头 C |
+| :--------------: | :--------------: | :----: |
+|   这是一段内容   | 这里也是一段内容 |  ...   |
+| 这里是另一段内容 |       ...        |  ...   |
 
 -v-
 
-### LaTeX Formula
+### $\LaTeX$ Formula
 
 假设 $\sum_{n=1}^\infty a_n$ 是一个条件收敛的无穷级数。对任意的一个实数 $C$ ，都存在一种从自然数集合到自然数集合的排列 $\sigma : n \mapsto \sigma (n)$，使得
 
@@ -70,3 +96,92 @@ $$
 类似地，也可以有办法使它的部分和趋于 $-\infty$ ，或没有任何极限。
 
 反之，如果级数是绝对收敛的，那么无论怎样重排，它仍然会收敛到同一个值，也就是级数的和。
+
+-v-
+
+### Image
+
+<div class="mul-cols">
+<div class="col">
+
+Normal image
+
+![](avatar_512.png)
+
+</div>
+<div class="col">
+
+Image with link
+
+[![](avatar_512.png)](1)
+
+</div>
+</div>
+---
+
+## Part 2. Layout
+
+-v-
+
+### Multi-columns (i)
+
+<div class="mul-cols">
+<div class="col">
+
+Column 1
+
+- list
+- list
+
+</div>
+<div class="col">
+
+Column 2
+
+```python
+class MyClass:
+    def __init__(self, ...):
+        ...
+    def method(self, ...):
+        ...
+```
+
+</div>
+</div>
+
+-v-
+
+### Multi-columns (ii)
+
+<div class="mul-cols">
+<div class="col">
+
+第一列
+
+- 列表
+- 列表
+
+</div>
+<div class="col">
+
+第二列
+
+1. 列表
+2. 列表
+    - 列表
+
+</div>
+<div class="col">
+
+第三列
+
+```python
+class MyClass:
+    def __init__(self, ...):
+        ...
+    def method(self, ...):
+        ...
+```
+
+</div>
+</div>
