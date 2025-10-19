@@ -320,6 +320,26 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
 } */
 
+.reveal .avatar-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.reveal .avatar-img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.reveal .avatar-img:hover,
+.reveal .avatar-img:focus-within {
+    transform: scale(1.08);
+}
+
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
