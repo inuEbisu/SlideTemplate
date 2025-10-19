@@ -35,7 +35,7 @@ jobs:
 
       - name: Markdown style check (prettier)
         run: |
-          npm run check
+          npm run format:check
 
       - name: Build site
         run: make build
