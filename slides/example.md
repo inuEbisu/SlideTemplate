@@ -104,14 +104,14 @@ $$
 
 Normal image
 
-![](avatar_512.png)
+<img src="avatar_512.png" width="256" height="256"></img>
 
 </div>
 <div class="col">
 
 Image with link
 
-[![](avatar_512.png)](1)
+<a href="https://google.com/"><img src="avatar_512.png" width="256" height="256"></img></a>
 
 </div>
 </div>
